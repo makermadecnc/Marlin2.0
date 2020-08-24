@@ -749,7 +749,7 @@
 #define DEFAULT_AXIS_STEPS_PER_UNIT   { 640, 640, 3200, 1440 } //(8729要改成320步数，放大四倍XYZ)
                                                                // refered to previous LV8729 drivers, translates to:
                                                                // (8729 needs to be changed to 320 steps, zoom in four times XYZ)
-                                                               // 620 values are for the new TMC2208 drivers
+                                                               // 640 values are for the new TMC2208 drivers
 
 /**
  * Default Max Feed Rate (mm/s)
