@@ -746,7 +746,7 @@
  * Override with M92
  *                                      X, Y, Z, E0 [, E1[, E2...]]
  */
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 40, 40, 200, 90 } //(8729要改成320步数，放大四倍XYZ)
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 20, 20, 100, 90 } //(8729要改成320步数，放大四倍XYZ)
                                                                // refered to previous LV8729 drivers, translates to:
                                                                // (8729 needs to be changed to 320 steps, zoom in four times XYZ)
                                                                // 640 values are for the new TMC2208 drivers
