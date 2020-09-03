@@ -691,7 +691,7 @@
 //#define Z2_DRIVER_TYPE A4988
 //#define Z3_DRIVER_TYPE A4988
 //#define Z4_DRIVER_TYPE A4988
-#define E0_DRIVER_TYPE A4988
+#define E0_DRIVER_TYPE TMC2208_STANDALONE
 //#define E1_DRIVER_TYPE A4988
 //#define E2_DRIVER_TYPE A4988
 //#define E3_DRIVER_TYPE A4988
@@ -749,7 +749,6 @@
 #define DEFAULT_AXIS_STEPS_PER_UNIT   { 20, 20, 100, 90 } //(8729要改成320步数，放大四倍XYZ)
                                                                // refered to previous LV8729 drivers, translates to:
                                                                // (8729 needs to be changed to 320 steps, zoom in four times XYZ)
-                                                               // 640 values are for the new TMC2208 drivers
 
 /**
  * Default Max Feed Rate (mm/s)
@@ -1092,7 +1091,7 @@
 // @section extruder
 
 // For direct drive extruder v9 set to true, for geared extruder set to false.
-#define INVERT_E0_DIR false
+#define INVERT_E0_DIR true
 #define INVERT_E1_DIR false
 #define INVERT_E2_DIR false
 #define INVERT_E3_DIR false
