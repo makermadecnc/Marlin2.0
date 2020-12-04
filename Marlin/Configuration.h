@@ -746,7 +746,7 @@
  * Override with M92
  *                                      X, Y, Z, E0 [, E1[, E2...]]
  */
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 20, 20, 100, 90 } //(8729要改成320步数，放大四倍XYZ)
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 81.44, 81.49, 406.10, 137.10 } //(8729要改成320步数，放大四倍XYZ)
                                                                // refered to previous LV8729 drivers, translates to:
                                                                // (8729 needs to be changed to 320 steps, zoom in four times XYZ)
 
@@ -985,7 +985,7 @@
  * Specify a Probe position as { X, Y, Z }
  */
 // MIGHT NEED TO CHANGE BASED ON BLTOUCH MOUNT!
-#define NOZZLE_TO_PROBE_OFFSET { -44, -3.736, 2.8 }
+#define NOZZLE_TO_PROBE_OFFSET { -44, -3.736, -1.55 }
 
 // Most probes should stay away from the edges of the bed, but
 // with NOZZLE_AS_PROBE this can be negative for a wider probing area.
